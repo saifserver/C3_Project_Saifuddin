@@ -66,7 +66,7 @@ class RestaurantTest {
 
     //>>>>>>>>>>>>>>>>>>>>>>ORDER VALUE<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
     @Test
-    public void getOrderValue_should_return_total_amount_of_all_the_items_selected() {
+    public void getOrderValue_should_return_total_amount_of_all_items_selected() {
         List<String> itemsSelected = new ArrayList<String>();
         itemsSelected.add("Sweet corn soup");
         itemsSelected.add("Vegetable lasagne");
